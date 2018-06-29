@@ -1,0 +1,321 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+input,button{
+  outline: none;
+}
+
+.fl{
+  float: left;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.warp{
+  width: 1016px;
+  margin: 0 auto;
+}
+
+.header{
+  text-align: center;
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color: #fff;
+  padding-bottom: 210px;
+}
+
+.header h1{
+  padding-top: 100px;
+  font-size: 49px;
+  font-weight: lighter;
+}
+
+.header .info{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.header .registForm{
+  margin-top: 100px;
+  border: rgba(255, 255, 255, 0.5) 1px solid;
+  display: inline-block;
+}
+
+.header .registForm .formTitle{
+  font-size: 16px;
+  padding-top: 54px;
+}
+
+.header .registForm .formDetil{
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.header .registForm ul{
+  padding: 44px 99px;
+}
+
+.header .registForm ul li{
+  float: left;
+
+}
+
+.header .registForm ul li>input{
+  outline: none;
+  padding: 20px 24px;
+  font-size: 13px;
+  margin-left: 30px;
+  width: 250px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.header .registForm ul li>button{
+  margin-left: 30px;
+  padding: 20px 24px;
+  font-size: 13px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* info */
+.info{
+  text-align: center;
+}
+
+.info .info-title{
+  padding-top: 89px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.info .info-detil{
+  padding-top: 43px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.info .info-list li{
+  float: left;
+  position: relative;
+  text-align: left;
+  padding-left: 60px;
+  width: 40%;
+  margin-top: 90px;
+  margin-right: 20px;
+}
+
+.info .info-list .icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* polices */
+.w-368{
+  width: 368px;
+}
+.polices{
+  background: url(../images/bg2.png) no-repeat;
+  position: relative;
+ margin-top: 140px;
+ background-size: cover;
+}
+
+.polices .info-text{
+   /* position: absolute; */
+   display: inline-block;
+   color: #fff;
+  padding: 180px 0 180px 200px;
+}
+
+.polices .info-text .info-title{
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.polices .info-text .btns-box{
+     margin-top: 30px;
+}
+
+.polices .info-text .btns-box button{
+  width: 242px;
+  height: 61px;
+  margin-right: 20px;
+  background: none;
+  outline: none;
+  color: #fff;
+}
+
+
+
+
+
+/* products */
+.product-box{
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+
+}
+
+.product-box .product-title{
+  padding-top: 102px;
+  font-size: 34px;
+}
+
+.product-box ul{
+  width: 949px;
+  margin: 0 auto;
+  padding: 90px 0 80px 0;
+}
+
+.product-box ul li{
+  float: left;
+  width: 252px;
+  margin-right: 93px;
+}
+
+.product-box ul li:last-child{
+  margin-right: 0;
+}
+
+/* bussiness-box */
+.bussiness-box ul{
+  width: 977px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.bussiness-box{
+  padding-bottom: 115px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.bussiness-box ul li{
+  float: left;
+}
+
+.bussiness-box ul li:last-child{
+  margin-left: 100px;
+}
+
+/* crew */
+.crew-box{
+  padding: 103px 0;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.crew-box .crew-title{
+  font-size: 28px;
+}
+
+.crew-box p{
+  padding-top: 30px;
+  width: 700px;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mr-30{
+  margin-right: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.crew-box ul{
+    margin-top: 70px;
+}
+
+.crew-box ul li{
+  float: left;
+}
+
+/* contacts */
+.contacts{
+  padding: 74px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+.contacts ul{
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  float: left;
+  padding: 47px 30px;
+}
+
+.contacts ul .title{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.contacts ul input{
+  margin-bottom: 30px;
+  width: 372px;
+  font-size: 14px;
+  padding: 18px 5px;
+}
+
+.contacts ul button{
+  display: inline-block;
+  width: 372px;
+  font-size: 14px;
+  padding: 18px 5px;
+  background-color: #141414;
+  color: #fff;
+  font-weight:  lighter;
+}
+
+
+.contacts .contacts-list{
+  border: none;
+  margin-left: 134px;
+}
+
+.contacts .contacts-list li{
+    padding-top: 36px;
+}
+
+.contacts .contacts-list li img{
+float: left;
+}
+
+.w353{
+  width: 353px;
+}
+
+.w265{
+  width: 265px;
+}
+
+
+/* footer */
+.footer{
+  background-color: #000;
+  padding: 90px 0;
+  color: #e7e7e7;
+}
+
+.footer ul{
+  float: left;
+  width: 20%;
+}
